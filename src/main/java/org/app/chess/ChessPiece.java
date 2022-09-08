@@ -1,0 +1,18 @@
+package org.app.chess;
+
+import org.app.boardgame.Board;
+import org.app.boardgame.Piece;
+
+public class ChessPiece extends Piece {
+    private Color color;
+
+    public ChessPiece(Board board, Color color) {
+        super(board);
+        this.color = color;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+}
